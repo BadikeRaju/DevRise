@@ -1,6 +1,3 @@
-Absolutely! Below is the **complete GitHub `README.md` code** for your DevriseAI project. You can copy and paste this directly into your `README.md` file in your GitHub repo:
-
-````md
 # 🚀 DevriseAI – Smart AI Assistant for Career-Focused Developers
 
 > 👩‍💻 Built to keep you **focused**, **productive**, and **interview-ready**
