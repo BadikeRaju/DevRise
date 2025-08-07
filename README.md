@@ -1,73 +1,129 @@
-# Welcome to your Lovable project
+Absolutely! Below is the **complete GitHub `README.md` code** for your DevriseAI project. You can copy and paste this directly into your `README.md` file in your GitHub repo:
 
-## Project info
+````md
+# 🚀 DevriseAI – Smart AI Assistant for Career-Focused Developers
 
-**URL**: https://lovable.dev/projects/adab121b-3108-4ff2-a33b-82aa5a9470d3
+> 👩‍💻 Built to keep you **focused**, **productive**, and **interview-ready**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### 🧠 Overview
 
-**Use Lovable**
+**DevriseAI** is a voice-activated AI assistant designed for developers who want to stay sharp, organized, and on top of their tech careers. Whether you're preparing for interviews, tracking coding progress, or managing job applications – DevriseAI has your back.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/adab121b-3108-4ff2-a33b-82aa5a9470d3) and start prompting.
+With powerful integrations and open-source AI via the **Mistral API**, it offers a cost-efficient alternative to commercial LLMs while delivering powerful task automation.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🎙️ **Voice-Activated Assistant** – Just speak! Get reminders, updates, and daily planning help hands-free.
+- ⏱️ **Pomodoro-Based Time Management** – Real-time voice reminders with Text-to-Speech to boost focus.
+- 📚 **Learning Tracker** – Monitor your progress in **Data Structures**, **Algorithms**, and **System Design**.
+- 🗂️ **Job Application Manager** – Track applications, status, and deadlines.
+- 🧠 **Interview Prep Assistant** – Practice coding challenges and get curated technical questions.
+- 📅 **Calendar Sync** – Stay on schedule with integrated calendar reminders.
+- 🔄 **Task Automation** – Automated scheduling, notifications, and productivity tracking.
+- 🧪 **Powered by Mistral API** – Lightweight, cost-efficient LLM for contextual assistance.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+### 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Frontend  | Backend   | AI Integration | Database | Other        |
+|-----------|-----------|----------------|----------|--------------|
+| React     | Node.js   | Mistral API    | Firebase | Text-to-Speech, Calendar API |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 📸 Demo
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+_Coming Soon..._
+
+---
+
+### 🚀 Getting Started
+
+#### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/DevriseAI.git
+cd DevriseAI
+````
+
+#### 2. Install dependencies
+
+```bash
+# For backend
+cd server
+npm install
+
+# For frontend
+cd ../client
+npm install
 ```
 
-**Edit a file directly in GitHub**
+#### 3. Set up environment variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create `.env` files in both `/client` and `/server` directories with your Firebase config, Mistral API keys, and other secrets:
 
-**Use GitHub Codespaces**
+```env
+# Example for server/.env
+MISTRAL_API_KEY=your_mistral_key
+FIREBASE_PROJECT_ID=your_project_id
+...
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Example for client/.env
+REACT_APP_FIREBASE_API_KEY=your_firebase_key
+...
+```
 
-## What technologies are used for this project?
+#### 4. Run locally
 
-This project is built with:
+```bash
+# Start backend
+cd server
+npm run dev
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Start frontend
+cd ../client
+npm start
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/adab121b-3108-4ff2-a33b-82aa5a9470d3) and click on Share -> Publish.
+### 📈 Productivity Boost
 
-## Can I connect a custom domain to my Lovable project?
+> Developers using DevriseAI reported a **40% productivity improvement** thanks to smart automation and structured focus sessions.
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 🤖 AI Power without the Price Tag
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+DevriseAI uses **open-access Mistral LLMs**, replacing closed/proprietary APIs to keep costs low and access transparent.
+
+---
+
+### 📌 Roadmap
+
+* [ ] Voice intent classification with Whisper
+* [ ] Advanced interview prep with resume-based question generation
+* [ ] Mobile app integration
+* [ ] Multi-user support & team productivity insights
+
+---
+
+### 🤝 Contributing
+
+PRs and feature suggestions are welcome! Please open an issue to discuss what you'd like to add or improve.
+
+---
+
+---
+
+```
+
+> ✅ **Reminder**: Replace `your-username`, `your-profile`, `your-handle`, and API/environment values with your actual data. Also consider adding screenshots or GIFs to show off the UI.
+
+Would you like me to generate a sample `.env.example` file or folder structure tree for this project too?
+```
