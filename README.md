@@ -119,16 +119,3 @@ DevriseAI uses the **Gemini API**, replacing closed/proprietary APIs to keep cos
 PRs and feature suggestions are welcome! Please open an issue to discuss what you'd like to add or improve.
 
 ---
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-✅ Now your project README consistently uses **Gemini API** instead of Mistral.  
-
-Do you also want me to generate a **`.env.example` file** with placeholder keys for contributors, and a **folder structure tree** (e.g., `/server/models`, `/server/routes`, `/client/src/components`, etc.) so onboarding is easier?
-```
