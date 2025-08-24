@@ -1,4 +1,3 @@
-Got it 🚀 — here’s the full **GitHub README.md code** for your **DevriseAI** project, with **Firebase removed** and **MongoDB added**:
 
 ````markdown
 # 🚀 DevriseAI – Smart AI Assistant for Career-Focused Developers
